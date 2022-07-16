@@ -53,7 +53,7 @@ const getCircularReplacer = () => {
 };
 
 ////////////////////////////  API URLS //////////////////////////////
-const API_KEY = "2fb7569a";
+const API_KEY = "e8fe9535";
 const BASE_API = `http://www.omdbapi.com/?apikey=${API_KEY}`;
 
 ///////////////////////////   API  ///////////////////////////////////

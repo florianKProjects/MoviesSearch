@@ -1,0 +1,48 @@
+.movie-card {
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+.movie-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hover-wrapper {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+.hover-wrapper:hover {
+  opacity: 1;
+  display: block;
+  background: rgb(10 6 6 / 74%);
+}
+.hover-movie-info {
+  height: 100%;
+
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+.hover-movie-info > * {
+  background: none;
+}
+.hover-movie-info p {
+  color: #d5ab60;
+}
+.short-info {
+  display: flex;
+  padding-top: 33px;
+
+  flex-direction: column;
+  text-align: center;
+}
+.short-info p {
+  background: none;
+}

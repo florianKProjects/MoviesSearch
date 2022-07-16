@@ -1,0 +1,12 @@
+.top-bar {
+  display: flex;
+  flex-direction: column;
+}
+.seach-bar {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+h3 {
+  margin: 0 0 0 0;
+}
